@@ -1,0 +1,22 @@
+{
+  "name": "compressingjs",
+  "version": "0.1.57",
+  "author": "Rafael Torres",
+  "email":"rafael9310@gmail.com",
+  "main": ".bin/",
+  "bin": {
+    "compressingjs": "./bin/compressingjs"
+  },
+  "scripts": {
+    "start": ".bin/compressingjs",
+    "test": ".bin/tcompressingjs -c"
+  },
+  "dependencies": {
+    "commander": ">=1.0.0",
+    "colorize": ">=0.1.0",
+    "wrench": ">=1.3.9",
+    "path": ">=0.4.9",
+    "uglify-js": ">=2.3.6"
+  },
+  "description": "compressingjs\n read folder  every  files and compress files type 'JS'\n concat every  letter in  the  file  'JS'",
+}
